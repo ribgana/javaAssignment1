@@ -21,5 +21,22 @@ public class Main {
 
         input.close();
         System.out.println(Energy.KineticEnergy(Mass, Velocity));
+        
+        double Gf
+        double Height
+            
+        System.out.println("GravitationalEnergy");
+        System.out.println("InputMass");
+        Mass = input.nextdouble();
+        
+        System.out.println("GravitationalEnergy");
+        System.out.println("InputGf");
+        Gf = input.nextdouble();
+        
+        System.out.println("GravitationalEnergy");
+        System.out.println("InputHeight");
+        Height = input.nextdouble();
+        
+        System.out.println(Energy.GravitationalEnergy(Mass,Height,Gf));
     }
 }
